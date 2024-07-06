@@ -1,0 +1,76 @@
+.item {
+    font-size: 16px;
+}
+
+.highlight {
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.table {
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 24px;
+} .table li {
+    list-style: none;
+    padding: 16px 8px;
+} .table li:nth-child(even) {
+    background-color: lightgrey;
+} .table:nth-child(2) {
+    display: flex;
+    max-width: 300px;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+/* .table {
+    margin: 0 auto;
+    text-align: center;
+} .table td{ 
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+.thead {
+    font-size: 20px;
+    text-align: center;
+} .thead th {
+    border-bottom: 2px solid rgba(0,0,0, 0.2);
+}  */
+
+
+/* .under .und{
+    color: blue;
+    border: 4px solid black;
+}
+
+.normal .norm{
+    color: blue;
+    border: 4px solid black;
+}
+
+.overweight .ovr{
+    color: blue;
+    border: 4px solid black;
+}
+
+.obesity1 .obs1{
+    color: blue;
+    border: 4px solid black;
+}
+
+.obesity2 .obs2{
+    color: blue;
+    border: 4px solid black;
+}
+
+.obesity3 .obs3{
+    color: blue;
+    border: 4px solid black;
+} */

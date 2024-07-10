@@ -9,12 +9,12 @@ const func = ({imc}) => {
     // const [cla, setCla] = useState('none')
 
     function setArrayClass(num) {
-        let newarray = classes.map((item, index) =>{
+        let newarray = classes.map((item,) =>{
             item = 'item'
             return item
         })
 
-        setClasses(old => {
+        setClasses(() => {
             newarray[num] = 'highlight'
             return newarray
         })
@@ -99,7 +99,7 @@ const func = ({imc}) => {
                     <p>IMC (kg/m²) Classificação</p>
                 </li>
             </ul>
-            <ul className={styles[cla]}>
+            <ul>
                 {array.map((item, index) => (
                     <>
                     <li className={styles[classes[index]]}>

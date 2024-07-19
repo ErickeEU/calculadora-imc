@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import styles from './main.module.css'
 
-const func = ({imc}) => {
+const Func = ({imc}) => {
 
     const array = ['Menor que 18,5:	Baixo peso', 'De 18,5 a 24,9:	Peso normal', 'De 25 a 29,9:	Sobrepeso', 'De 30 a 34,9:	Obesidade grau I', 'De 35 a 39.9:	Obesidade grau II', 'Igual ou maior que 40:	Obesidade grau III']
     const [classes, setClasses] = useState(['item', 'item', 'item', 'item', 'item', 'item'])
@@ -9,7 +9,7 @@ const func = ({imc}) => {
     // const [cla, setCla] = useState('none')
 
     function setArrayClass(num) {
-        let newarray = classes.map((item,) =>{
+        let newarray = classes.map((item) =>{
             item = 'item'
             return item
         })
@@ -113,4 +113,4 @@ const func = ({imc}) => {
     )
 }
 
-export default func
+export default Func
